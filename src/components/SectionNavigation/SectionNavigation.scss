@@ -1,0 +1,14 @@
+.section-navigation {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+
+  a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+  }
+}

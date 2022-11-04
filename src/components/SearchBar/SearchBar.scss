@@ -1,0 +1,17 @@
+.searchbar {
+  height: 36px;
+
+  .input-search {
+    border-radius: 2px;
+    border: 1px solid #d0d0d0;
+  }
+
+  .btn-outline-primary {
+    color: #0d28a6;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: 1px solid #0d28a6;
+    border-radius: 2px;
+  }
+}

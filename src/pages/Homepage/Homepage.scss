@@ -1,0 +1,9 @@
+.section-1 {
+  position: relative;
+
+  .car-search {
+    position: absolute;
+    bottom: -53px;
+    left: calc(50vw - 515px);
+  }
+}

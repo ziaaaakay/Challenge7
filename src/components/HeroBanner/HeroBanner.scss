@@ -1,0 +1,64 @@
+.hero-section {
+  padding: 0 100px;
+  background: #f1f3ff;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  overflow-x: hidden;
+
+  .section-1 {
+    flex: 1;
+    margin-right: 100px;
+
+    h3 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+
+    p {
+      width: 75%;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      margin: 0;
+    }
+  }
+
+  .section-2 {
+    flex: 1;
+    height: 100%;
+    position: relative;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 50px 10px 0 10px;
+    flex-direction: column;
+    height: fit-content;
+
+    .section-1 {
+      margin-right: 0;
+    }
+
+    .section-2 {
+      width: 100%;
+      min-height: 250px;
+
+      img {
+        width: 100%;
+        left: auto;
+        right: -10px;
+      }
+    }
+  }
+}

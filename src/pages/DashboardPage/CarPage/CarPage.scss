@@ -1,0 +1,61 @@
+.list-car-section {
+  .section-navigation {
+    margin-bottom: 27px;
+  }
+
+  .group-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    .btn {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      height: 36px;
+      background: #0d28a6;
+      border-radius: 2px;
+      padding: 8px 12px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .section-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .category-group {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 16px;
+
+    .btn {
+      padding: 8px 12px;
+      color: #aeb7e1;
+      border: 1px solid #aeb7e1;
+      border-radius: 2px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+
+      &:hover,
+      &.active {
+        background: #cfd4ed;
+        border: 1px solid #0d28a6;
+        color: #0d28a6;
+      }
+    }
+  }
+
+  .list-car-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}

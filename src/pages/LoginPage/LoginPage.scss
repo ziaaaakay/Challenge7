@@ -1,0 +1,86 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+
+  .jumbotron-section {
+    flex: 3;
+    overflow-x: hidden;
+    background-color: rgba($color: #000000, $alpha: 1);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .main-section {
+    flex: 2;
+    margin: auto;
+    padding: 0 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .title-logo {
+      width: 100px;
+      height: 34px;
+      background: #cfd4ed;
+    }
+
+    .title {
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+    }
+
+    .alert {
+      margin: 0;
+      p {
+        margin: 0;
+        font-weight: 300;
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+      }
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .form-button {
+        background: #0d28a6;
+        font-weight: 700;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        height: 36px;
+        margin-top: 16px;
+        border-radius: 2px;
+        padding: 8px 12px;
+      }
+    }
+
+    .center-text {
+      align-self: center;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+
+    .google-button {
+      width: fit-content;
+      align-self: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .login-page {
+    .jumbotron-section {
+      display: none;
+    }
+
+    .main-section {
+      flex: 1;
+      padding: 10px;
+    }
+  }
+}

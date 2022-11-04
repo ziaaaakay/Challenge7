@@ -1,0 +1,69 @@
+.add-new-car-page {
+  padding-bottom: 40px;
+  .section-navigation {
+    margin-bottom: 32px;
+  }
+
+  .section-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 16px 0;
+  }
+
+  .form-new-car {
+    padding: 16px;
+    background: #fff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .form-group {
+      width: 560px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      label,
+      .input-field {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #3c3c3c;
+      }
+
+      .input-field {
+        width: 70%;
+        height: 36px;
+        padding: 9px;
+      }
+    }
+  }
+  .button-group {
+    margin-top: 280px;
+    display: flex;
+    gap: 16px;
+
+    .btn {
+      padding: 8px 12px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      border: 1px solid #0d28a6;
+    }
+
+    .btn-primary {
+      background: #0d28a6;
+    }
+
+    .btn-outline-primary {
+      color: #0d28a6;
+
+      &:hover {
+        background: #0d28a6;
+        color: #fff;
+      }
+    }
+  }
+}

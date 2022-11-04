@@ -1,0 +1,45 @@
+.secondary-sidebar {
+  width: 220px;
+  height: 100%;
+  background-color: #fff;
+  padding: 24px 0;
+  z-index: 3;
+  position: fixed;
+  left: 70px;
+  top: 70px;
+
+  .title-page {
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8a8a8a;
+    margin-bottom: 19px;
+  }
+
+  .item-group {
+    display: flex;
+    flex-direction: column;
+
+    .button-sidebar {
+      height: 42px;
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      border: none;
+      padding: 0 24px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      color: #151515;
+
+      &:hover {
+        background: #cfd4ed;
+      }
+
+      &.active {
+        background: #cfd4ed;
+      }
+    }
+  }
+}
